@@ -135,3 +135,10 @@ NAME="Bob"
 # touch "hello/world.txt"
 # echo "Hello World" >> "hello/world.txt"
 # echo "Created hello/world.txt"
+
+#Access your default linux variables like host name
+#echo "Hostname is: $HOSTNAME"
+
+#Use "export" command to mark an environment variable to be exported with any newly forked child processes
+#export value=10
+#python test.py --value $value
